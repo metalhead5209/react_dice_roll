@@ -1,13 +1,12 @@
+import RollDice from './components/RollDice';
 
-import Dice from './components/Dice';
 import './App.css'
 
 function App() {
 
   return (
     <div className="App">
-      <Dice num='five' />
-      <Dice num='three' />
+      <RollDice />
     </div>
   )
 }
